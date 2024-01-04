@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Encryption Decryption Simulation - K14</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: eStartup
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div id="logo">
+        <h1><a href="index.html"><span>e</span>Startup</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#materi">Materi</a></li>
+          <li class="dropdown"><a href="#simulasi"><span>Simulasi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">One-Time Pad</a></li>
+              <li><a href="#">Rivest Shamir Adleman</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#team">Tentang</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Selamat Datang</h1>
+      <h2>Simulasi Enkripsi dan Dekripsi dengan Algoritma OTP dan RSA</h2>
+      <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <a href="#get-started" class="btn-get-started scrollto">Mulai</a>
+      <div class="btns">
+        <a href="#"><i class="fa fa-apple fa-3x"></i>Saniyyah Azhari</a>
+        <a href="#"><i class="fa fa-play fa-3x"></i>Keamanan Data - 4 TI B</a>
+        <a href="#"><i class="fa fa-windows fa-3x"></i>Rasyid Tarmizi</a>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="padd-section text-center">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>Deskripsi Singkat Website</h2>
+          <p class="separator">Website simulasi enkripsi dekripsi adalah website yang memungkinkan pengguna untuk
+            mempelajari dan memahami cara kerja algoritma kriptografi dengan melakukan simulasi enkripsi dan dekripsi
+            pada pesan atau data pada data berupa text yang diinputkan pada sistem.
+
+            Aplikasi web simulasi enkripsi dekripsi memiliki beberapa manfaat, antara lain:
+            </br>- Meningkatkan pemahaman pengguna tentang cara kerja algoritma kriptografi.
+            </br>- Memberikan pengalaman belajar yang interaktif dan menyenangkan bagi pengguna.
+            </br>- Membantu pengguna memahami cara kerja algoritma kriptografi dengan
+            melakukan simulasi enkripsi dan dekripsi pada pesan atau data yang dimasukkan.
+
+            </br>Beberapa fitur yang ada pada aplikasi web simulasi enkripsi dekripsi antara lain:
+            </br>- Simulasi enkripsi dan dekripsi: Pengguna dapat melakukan simulasi enkripsi dan dekripsi pada pesan
+            atau data yang dimasukkan.
+            </br>- Pilihan algoritma kriptografi: Pengguna dapat memilih algoritma kriptografi yang ingin digunakan
+            untuk melakukan enkripsi dan dekripsi.</p>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="feature-block">
+
+              <img src="assets/img/svg/cloud.svg" alt="img">
+              <h4>easy to use</h4>
+              <p>Menampilkan fungsi-fungsi yang mudah dimengerti</p>
+              <a href="#">...</a>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="feature-block">
+
+              <img src="assets/img/svg/planet.svg" alt="img">
+              <h4>user friendly interface</h4>
+              <p>Memberikan tampilan yang ramah dimata pengguna</p>
+              <a href="#">...</a>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="feature-block">
+
+              <img src="assets/img/svg/asteroid.svg" alt="img">
+              <h4>Responsif</h4>
+              <p>Antarmuka yang responsif memberikan umpan balik segera terhadap tindakan pengguna. </p>
+              <a href="#">...</a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Get Started Section -->
+
+    <!-- ======= Materi Section ======= -->
+    <section id="materi" class="padd-section text-center">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Materi</h2>
+          <p class="separator">Sedikit Perkenalan Tentang OTP & RSA</p>
+        </div>
+        <div class="row justify-content-center">
+
+          <div class="col-md-12">
+
+            <div class="testimonials-content">
+              <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner" role="listbox">
+
+                  <div class="carousel-item  active">
+                    <div class="top-top">
+
+                      <h3>One Time Pad (OTP)</h3>
+
+                      <p>OTP (One-Time Password) adalah algoritma keamanan yang digunakan untuk menghasilkan suatu
+                        password yang hanya dapat digunakan sekali dalam autentikasi. Prinsip dasar dari algoritma OTP
+                        adalah bahwa setiap password yang dihasilkan hanya berlaku untuk satu sesi autentikasi tertentu
+                        dan tidak dapat digunakan lagi setelah itu. Ini memberikan lapisan keamanan ekstra karena
+                        meskipun seseorang dapat mencuri atau mendapatkan akses ke password tersebut, mereka tidak akan
+                        dapat menggunakannya untuk autentikasi di masa mendatang.</p>
+
+
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="top-top">
+
+                      <h3>RSA (Rivest-Shamir-Adleman)</h3>
+                      <p>RSA (Rivest–Shamir–Adleman) adalah algoritma kriptografi kunci publik yang memungkinkan
+                        pertukaran kunci rahasia dan penyandian pesan secara aman melalui jaringan tak aman. Dalam RSA,
+                        setiap entitas memiliki sepasang kunci, yaitu kunci publik untuk menyandikan pesan dan kunci
+                        privat untuk mendekripsinya. Keamanan RSA bergantung pada kesulitan dalam memfaktorkan produk
+                        dua bilangan prima besar, suatu masalah yang dianggap sulit untuk diselesaikan dalam waktu yang
+                        wajar dengan komputer klasik saat ini.</p>
+
+                    </div>
+                  </div>
+
+                  <div class="carousel-item ">
+                    <div class="top-top">
+
+                      <h3>Overall OTP & RSA</h3>
+                      <p>Program enkripsi-dekripsi yang menggabungkan algoritma One-Time Pad (OTP) dan RSA biasanya
+                        memanfaatkan keunggulan keamanan OTP dalam penyandian dan kemudian menggunakan RSA untuk
+                        pertukaran kunci. OTP menggunakan kunci acak sepanjang pesan, sementara RSA digunakan untuk aman
+                        pertukaran kunci sesi. OTP memberikan keamanan unik karena kunci hanya digunakan sekali, dan RSA
+                        menyediakan infrastruktur kunci publik untuk menyusun pertukaran kunci yang aman. Kombinasi ini
+                        meningkatkan keamanan pesan secara keseluruhan.</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="btm-btm">
+                  <ul class="list-unstyled carousel-indicators">
+                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Materi Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="padd-section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Contact</h2>
+          <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="bi bi-geo-alt"></i>
+                <p>A108 Adam Street<br>New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <p>info@example.com</p>
+              </div>
+
+              <div>
+                <i class="bi bi-phone"></i>
+                <p>+1 5589 55488 55s</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="padd-section text-center">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>Team Member</h2>
+          <p class="separator">Anggota tim pengembang website</p>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-block bottom">
+              <img src="assets/img/team/san.png" class="img-responsive" alt="img">
+              <div class="team-content">
+                <!-- <ul class="list-unstyled">
+                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </ul> -->
+                <span>Member</span>
+                <h4>Saniyyah Azhari</h4>
+                <h5>2055301127</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-block bottom">
+              <img src="assets/img/team/syid.png" class="img-responsive" alt="img">
+              <div class="team-content">
+                <span>Member</span>
+                <h4>Rasyid Tarmizi</h4>
+                <h5>2055301116</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="#">eStartup</a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the.</p>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Support</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">faq</a></li>
+              <li><a href="#">Editor help</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights eStartup. All rights reserved.</p>
+        <div class="credits">
+          <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
+        -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
